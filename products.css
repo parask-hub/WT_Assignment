@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.559), rgba(20, 10, 16, 0.847)), url(./Images/Untitled\ design\ \(1\).png); */
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 0px 2px 8px 2px;
+    background-color: #fff;
+}
+
+.card p{
+    font-size: 15px;
+}
+
+.price {
+    color: grey;
+    font-size: 16px;
+}
+
+
+.exp-btn-cls {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.card img {
+    height: 200px;
+}
+
+.card-container {
+    display: flex;
+}
+
+.footer {
+    height: 20vh;
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+    background-color: #0a142c;
+    color: #fff;
+}
+.electronic-pro{
+    margin:20px 0px;
+}
+
+.electronic-pro h2{
+    background-color: rgb(242, 248, 196);
+    text-align: center;
+    margin:10px 0px;
+}
+
+.card button{
+    background-color: #0d39a1;
+    color: #fff;
+    outline: 0;
+    border: 0px;
+    padding: 10px;
+    border-radius:10px ;
+    cursor: pointer;
+}

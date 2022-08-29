@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.banner
+{
+    background: url(./Images/Blue\ White\ Geometric\ Business\ Blog\ Banner.jpg);
+    height:100vh;
+    background-size: cover;
+}

@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+::selection {
+    color: #000;
+    background: #fff;
+}
+
+nav {
+    position: relative;
+    background: #2e53ac;
+    font-family: monospace;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 12;
+}
+
+nav .menu {
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.menu .logo a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.menu ul {
+    display: inline-flex;
+}
+
+.menu ul li {
+    list-style: none;
+    margin-left: 7px;
+}
+
+.menu ul li:first-child {
+    margin-left: 0px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 8px 15px;
+    border-radius: 5px;
+
+}
+
+.menu ul li a:hover {
+    background: rgb(244, 244, 244);
+    color: black;
+}
+
+.active {
+    background-color: #0a142c;
+}
+
+
+
+.pg {
+    height: 100vh;
+    width: 100%;
+    /* background: rgb(0 8 34); */ 
+    /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.559), rgba(20, 10, 16, 0.847)), url(./Images/Untitled\ design\ \(1\).png); */
+    background-size: cover;
+}
+
+.center {
+    position: absolute;
+    display: block;
+    background-color: #051949b9;
+    top: 20%;
+    width: 80vw;
+    padding: 5px;
+    margin: 30px;
+    margin-left: 117px;
+
+    border-radius: 20px;
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.center .title {
+    color: #fff;
+    font-size: 18px;
+    /* font-weight: 00; */
+}
+
+.container {
+    width: 40%;
+    border-radius: 20px;
+    padding: 15px 10px;
+    margin-left: 100px;
+
+}
+
+.center .sub_title {
+    color: #fff;
+    font-size: 16px;
+    /* font-weight: 600; */
+}
+
+.center .btns {
+    margin-top: 20px;
+}
+
+.center .btns button {
+    height: 55px;
+    width: 170px;
+    border-radius: 5px;
+    border: none;
+    margin: 0 10px;
+    border: 2px solid white;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 10px;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.girl-poster img {
+
+    position: absolute;
+    height: 287px;
+    position: absolute;
+    right: 90px;
+    top: 119px;
+}
+
+marquee {
+    background-color: #010714fa;
+    color: yellow;
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.top-products {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    position: relative;
+    height: 100vh;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px;
+}
+
+.price {
+    color: grey;
+    font-size: 18px;
+}
+
+.explore-btn {
+    border: none;
+    outline: 0;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(4, 39, 114, 0.833);
+    text-align: center;
+    cursor: pointer;
+    width: 200px;
+    margin-top: 15px;
+    font-size: 16px;
+
+}
+.exp-btn-cls{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.card img {
+    height: 200px;
+}
+
+.card-container {
+    display: flex;
+}
+
+.footer {
+    height: 20vh;
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+    background-color: #0a142c;
+    color: #fff;
+}
